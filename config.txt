@@ -13,14 +13,14 @@
 // If you don't know how to get a bot token, please see the guide here:
 // https://github.com/jagrosh/MusicBot/wiki/Getting-a-Bot-Token
 
-token = NTk1MzgyODc1Mzk0NjcwNjE1.XRqsvg.OVvA7fvELKJkFHtbe3kOgtiUKKM
+token = NjAwMDM1NTQ2ODQwMDM5NDgz.XSt4qw.QCylyap3bx7z5pDkNIZloow8SOM
 
 
 // This sets the owner of the bot
 // This needs to be the owner's ID (a 17-18 digit number)
 // https://github.com/jagrosh/MusicBot/wiki/Finding-Your-User-ID
 
-owner = 594854512041394209
+owner = 430051420805267469
 
 
 // This sets the prefix for the bot
@@ -28,7 +28,7 @@ owner = 594854512041394209
 // If you use !!, the play command will be !!play
 // If you do not set this, the prefix will be an @mention of the bot (@Botname play)
 
-prefix = "@mention"
+prefix = "va"
 
 
 // If you set this, it modifies the default game of the bot
@@ -38,13 +38,13 @@ prefix = "@mention"
 // where X is the title. If you don't include an action, it will use the
 // default of "Playing"
 
-game = "Watching Type help"
+game = "Watching Type vahelp"
 
 
 // If you set this, it will modify the default status of bot
 // Valid values: ONLINE IDLE DND INVISIBLE
 
-status = INVISIBLE
+status = IDLE
 
 
 // If you set this to true, the bot will list the title of the song it is currently playing in its
@@ -88,7 +88,7 @@ npimages = true
 // Keep in mind that being connected to a voice channel uses additional bandwith,
 // so this option is not recommended if bandwidth is a concern.
 
-stayinchannel = false
+stayinchannel = true
 
 
 // This sets the maximum amount of seconds any track loaded can be. If not set or set
